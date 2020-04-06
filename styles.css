@@ -1,0 +1,37 @@
+html{font-family: Arial, Helvetica, sans-serif;}
+
+body{margin:0;padding:20px;}
+
+input{font-family: Arial, Helvetica, sans-serif;}
+
+td, th{text-align: left;}
+
+.people{min-width: 175px;}
+
+.shadowing{
+    margin-top:10px;
+    padding:10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+}
+
+button{
+    font-size:1.0em;
+    background:#60038b;
+    color:#fff;
+    border: 1px solid #60038b;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:focus{
+    outline:none;
+}
+
+button:hover, button:active{
+    background:#7b07b1;
+    border-color: #7b07b1;
+}
+
+#errors ul li {
+    color:red;
+}
